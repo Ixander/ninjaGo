@@ -39,7 +39,7 @@ func main() {
 	results := make(chan bool, usersCount)
 
 	for i := 0; i < usersCount; i++ {
-		go saver(jobs, results)
+		go worker(jobs, results)
 	}
 
 	users := generateUsers(usersCount)
@@ -56,7 +56,7 @@ func main() {
 	fmt.Printf("DONE! Time Elapsed: %.2f seconds\n", time.Since(startTime).Seconds())
 }
 
-func saver(jobs <-chan User, results chan<- bool) {
+func worker(jobs <-chan User, results chan<- bool) {
 	for j := range jobs {
 		saveUserInfo(j)
 		results <- true

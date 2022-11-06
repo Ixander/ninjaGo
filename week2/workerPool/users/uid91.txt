@@ -1,0 +1,21 @@
+UID: 91; Email: user91@company.com;
+Activity Log:
+0. [created record] at 2022-11-06T21:43:46+02:00
+1. [logged in] at 2022-11-06T21:43:46+02:00
+2. [created record] at 2022-11-06T21:43:46+02:00
+3. [logged in] at 2022-11-06T21:43:46+02:00
+4. [logged out] at 2022-11-06T21:43:46+02:00
+5. [logged out] at 2022-11-06T21:43:46+02:00
+6. [created record] at 2022-11-06T21:43:46+02:00
+7. [deleted record] at 2022-11-06T21:43:46+02:00
+8. [logged in] at 2022-11-06T21:43:46+02:00
+9. [logged in] at 2022-11-06T21:43:46+02:00
+10. [logged in] at 2022-11-06T21:43:46+02:00
+11. [logged in] at 2022-11-06T21:43:46+02:00
+12. [logged out] at 2022-11-06T21:43:46+02:00
+13. [created record] at 2022-11-06T21:43:46+02:00
+14. [logged out] at 2022-11-06T21:43:46+02:00
+15. [created record] at 2022-11-06T21:43:46+02:00
+16. [logged out] at 2022-11-06T21:43:46+02:00
+17. [deleted record] at 2022-11-06T21:43:46+02:00
+18. [logged out] at 2022-11-06T21:43:46+02:00

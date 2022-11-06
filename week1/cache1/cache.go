@@ -34,5 +34,4 @@ func (c *Cache) Delete(key string) {
 	}
 
 	delete(c.items, key)
-
 }

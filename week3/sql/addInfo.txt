@@ -1,0 +1,11 @@
+# run docker
+# docker run -d --name ninja-db -e POSTGRES_PASSWORD=goLANGninja -v ${HOME}/pgdata/:/var/lib/postgresql/data -p 5432:5432 postgres
+
+# docker start
+# docker start 83aae5f2dbec
+
+# connect to docker container
+# docker exec -it ninja-db bash
+
+# run cli client for postgres
+# psql -U postgres
